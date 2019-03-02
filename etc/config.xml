@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+  ElateBrain
+
+  NOTICE OF LICENSE
+
+  This source file is subject to the elatebrain.com license which is available at https://www.elatebrain.com/LICENSE.txt
+
+  DISCLAIMER
+
+  Do not edit or add to this file if you wish to upgrade this extension to newer version in the future.
+  If you wish to customize this extension for your needs, please refer to https://magento.com for more information.
+
+  @category    Elatebrain
+  @package     Elatebrain_FBComments
+  @version     1.0.1
+  @copyright   Copyright (c) 2019 Elatebrain (https://www.elatebrain.com/)
+  @license     https://www.elatebrain.com/LICENSE.txt
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ebfbcomments>
+            <general>
+                <enabled>1</enabled>
+                <tab_title><![CDATA[Facebook Comments]]></tab_title>
+                <comments_per_page>5</comments_per_page>
+            </general>
+            <display>
+                <box_width>100%</box_width>
+                <color_scheme>light</color_scheme>
+                <default_order>reverse_time</default_order>
+            </display>
+        </ebfbcomments>
+    </default>
+</config>
